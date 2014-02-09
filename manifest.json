@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+
+    "name": "Happy Bonobo: Useragent Entropy",
+    "description": "Hide in the forest, with entropy added to your user agent.",
+    "version": "1.0",
+
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "<all_urls>"
+    ],
+
+    "background": {
+        "scripts": ["background.js"]
+    }
+}
